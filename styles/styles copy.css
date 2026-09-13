@@ -1,12 +1,8 @@
-:root {
-    --heading-background-color: green;
-    --text-align:center;
-}
 main{
     max-width: 840px;
 }
 nav {
-    background-color: var(--heading-background-color);
+    background-color: darkblue;
     padding: 10px;
 }
 nav a {
@@ -15,7 +11,7 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: var(--heading-background-color);
+    color: darkblue;
 }
 main img {
  width: 150px;
@@ -33,7 +29,7 @@ aside{
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: var(--text-align);
+    text-align: center;
 }
 aside img{
     width: 200px;
@@ -50,5 +46,5 @@ p{
 footer{
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: var(--text-align);
+    text-align: center;
 }
