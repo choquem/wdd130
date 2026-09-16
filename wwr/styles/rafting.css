@@ -36,10 +36,10 @@ nav,section,p,article{
     margin: 16px;
     padding: 8px;
 }
-.Hero{
+.hero{
     position: relative;
 }
-.Hero img {
+.hero img {
     display: block;
     width: 100%;
     height: auto;
@@ -54,18 +54,18 @@ h1{
     background-color: var(--accent1-color);
     color: #fff;
 }
-.Hero article{
+.hero article{
     position: absolute;
     top: 303px;
     width: 95%;
     opacity: 0.7;
     background-color: var(--accent1-color);
 }
-.Hero article img{
+.hero article img{
     float: right;
     width: 125px;
 }
-.Hero article p{
+.hero article p{
     color: #fff;
 }
 section h2{
