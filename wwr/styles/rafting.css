@@ -10,18 +10,17 @@
     --accent1-color : #264656;
     --accent2-color : #e9c45a;
     --heding-font : "times new Roman","Georgia",serif;
-    --body-font : Arial, Helvetica, sans-Serif
+    --body-font : Arial, Helvetica, sans-Serif;
 }
 
 header{
-    background-color: VAR(--primary-color;)
+    background-color: VAR(--primary-color);
     color: var(--accent2-color);
 }
 
 body{
     font-family: var(--body-font);
     color: var(--accent1-color);
-    font-family: var(--body-font);
 }
 
 header,main,footer{
