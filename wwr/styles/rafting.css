@@ -21,7 +21,7 @@ header{
 
 body{
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--accent1-color,--second-color);
 }
 
 header,main,footer{
@@ -42,6 +42,7 @@ nav,section,p,article{
 }
 nav a{
     text-decoration: none;
+    
 }
 
 .hero img {
