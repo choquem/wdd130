@@ -21,7 +21,7 @@ header{
 
 body{
     font-family: var(--body-font);
-    color: var(--accent1-color,--second-color);
+    color: var(--accent1-color);
 }
 
 header,main,footer{
@@ -85,4 +85,7 @@ section h2{
 .socialmedia img{
     width: 50px;
     height: 50px;
+}
+footer p{
+    color: var(--second-color);
 }
