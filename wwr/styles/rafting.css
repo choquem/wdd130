@@ -15,9 +15,10 @@
 }
 
 header{
-    background-color: VAR(--primary-color);
+    background-color: var(--primary-color);
     color: var(--accent2-color);
 }
+
 header li a{
     color: #FFFFFF;
 }
