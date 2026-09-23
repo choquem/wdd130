@@ -18,6 +18,9 @@ header{
     background-color: VAR(--primary-color);
     color: var(--accent2-color);
 }
+header li a{
+    color: #FFFFFF;
+}
 
 body{
     font-family: var(--body-font);
