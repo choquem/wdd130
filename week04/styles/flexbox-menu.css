@@ -54,9 +54,3 @@ p {
     background-color: #2a3a4a;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: center;
-}

@@ -17,10 +17,16 @@
 header{
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items :center;
+    padding: 10px 16px;
+   
 }
 
 header li a{
     color: #FFFFFF;
+    font-size: 1.2rem;
 }
 
 body{
@@ -45,7 +51,13 @@ nav,section,p,article{
     position: relative;
 }
 nav a{
-    text-decoration: none;
+    text-decoration: none; 
+}
+nav ul{
+  
+    display: flex;
+    justify-content: flex-end; 
+    gap: 120px; 
     
 }
 
