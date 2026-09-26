@@ -122,12 +122,11 @@ section h2{
     gap: 20px;          
 }
 
-/* Reseteo de la etiqueta figure */
 .adventure-grid figure {
     margin: 0; 
 }
 
-/* Estilo de las imágenes */
+/* style imagen */
 .adventure-grid img {
     width: 100%;
     height: 200px;            
@@ -135,13 +134,35 @@ section h2{
     border-radius: 8px;       
     display: block;
 }
-/* Estilo de los textos (figcaption) */
+
+
 .adventure-grid figcaption {
     margin-top: 10px;
     font-size: 1rem;
     font-weight: bold;
     color: var(--accent1-color);
     text-align: center;       
+}
+
+/* Content 3 column */
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 24px;
+    align-items: center; 
+}
+
+.history-content img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+
+.history-content p {
+    font-size: 0.95rem;
+    color: var(--accent1-color);
 }
 
 .socialmedia {
