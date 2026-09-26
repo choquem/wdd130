@@ -103,6 +103,27 @@ section h2{
    text-align: center;
    color: #fff;
 }
+/* zone history */
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 24px;
+    align-items: center; 
+}
+
+.history-content img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+
+.history-content p {
+    font-size: 0.95rem;
+    color: var(--accent1-color);
+}
+
 /* zone adventure*/
 .adventures {
     margin: 40px 0;
@@ -144,33 +165,15 @@ section h2{
     text-align: center;       
 }
 
-/* Content 3 column */
-.history-content {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    gap: 24px;
-    align-items: center; 
-}
 
-.history-content img {
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 4px;
-}
-
-
-.history-content p {
-    font-size: 0.95rem;
-    color: var(--accent1-color);
-}
-
+/* footer  */
 .socialmedia {
     display: flex;       
     gap: 16px;       
     grid-column: 2;
     justify-self: end; 
 }
+
 
 .socialmedia a{
     text-decoration: none;
