@@ -16,7 +16,7 @@
 
 header{
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--second-color);
     display: grid;
     grid-template-columns: auto 1fr;
     align-items :center;
@@ -82,7 +82,7 @@ h1{
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: var(--accent2-color);;
+    color: var(--accent2-color);
 }
 .hero article{
     position: absolute;
