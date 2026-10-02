@@ -10,6 +10,8 @@
     --second-color : #f4a261;
     --accent1-color : #264656;
     --accent2-color : #e9c45a;
+    --accent3-color : #222;
+    --color-white : #fff;
     --heding-font : "times new Roman","Georgia",serif;
     --body-font : Arial, Helvetica, sans-Serif;
 }
@@ -25,7 +27,7 @@ header{
 }
 
 header li a{
-    color: #fff;
+    color: var(--color-white);
     font-size: 1.2rem;
 }
 
@@ -54,7 +56,7 @@ nav,section,p,article{
 
 nav a{
     text-decoration: none; 
-    border: 2px solid #999999;
+    border: 2px solid;
     padding: 10px 25px; 
    
    
@@ -96,29 +98,29 @@ nav ul{
     width: 125px;
 }
 .hero article p{
-    color: #fff;
+    color: var(--color-white);
 }
 section h2{
    background-color: var(--accent1-color); 
    text-align: center;
-   color: #fff;
+   color: var(--color-white);
 }
 /*page about*/
 .n-contact h1{
     text-align: center;
-    color: #2c3e50;
+    color: var(--accent1-color);
 }
 
 .company-info {
     text-align: center;
     margin-bottom: 30px;
-    color: #555;
+    color: var(--accent3-color);
     line-height: 1.6;
 }
 .contacts {
     display: flex;
     gap: 30px;
-    background: #fff;
+    background: var(--color-white);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -143,7 +145,7 @@ input[type="email"],
 textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid;
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -172,7 +174,7 @@ button {
     width: 100%;
     padding: 12px;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--color-white);
     border: none;
     border-radius: 4px;
     font-size: 16px;
@@ -182,7 +184,7 @@ button {
 }
 
 button:hover {
-    background-color: #1f6391;
+    background-color: var(--accent1-color);
 }
 
 /* zone adventure*/
@@ -193,7 +195,7 @@ button:hover {
 
 .employed h2 {
     text-align: center;
-    color: #fff;
+    color: var(--color-white);
     font-family: var(--heding-font);
     margin-bottom: 24px;
 }
@@ -244,7 +246,7 @@ button:hover {
 
 .adventures h2 {
     text-align: center;
-    color: #fff;
+    color: var(--color-white);
     font-family: var(--heding-font);
     margin-bottom: 24px;
 }
