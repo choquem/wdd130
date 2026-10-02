@@ -34,33 +34,37 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15185.909327987727!2d-63.28571684999999!3d-17.909877050000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sbo!4v1790913913383!5m2!1ses!2sbo" width="300" height="350" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 </div> 
                 <div class="contact">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email">
-                    <label>Message Purpose</label>
-                     <div class="radio-group">
-                    <input type="radio" name="purpose" id="general" value="general" checked>
-                    <label for="general">General Inquiry</label>
-                    </div>
-                    <div class="radio-group">
-                        <input type="radio" name="purpose" id="reservation" value="reservation">
-                        <label for="reservation">Reservation Question</label>
-                    </div>
-                    <div class="radio-group">
-                        <input type="radio" name="purpose" id="website" value="website">
-                        <label for="website">Website Suggestion</label>
-                    </div>
-                    
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" placeholder="Type your message here" required></textarea>
-                    
-                    <div class="checkbox-group">
-                        <input type="checkbox" name="newsletter" id="newsletter">
-                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-                    </div>
-                    
-                    <button type="submit">Get in Touch!</button>
+                    <form action="">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email">
+                            <label>Message Purpose</label>
+                            <div class="radio-group">
+                            <input type="radio" name="purpose" id="general" value="general" checked>
+                            <label for="general">General Inquiry</label>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" name="purpose" id="reservation" value="reservation">
+                                <label for="reservation">Reservation Question</label>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" name="purpose" id="website" value="website">
+                                <label for="website">Website Suggestion</label>
+                            </div>
+                            
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" placeholder="Type your message here" required></textarea>
+                            
+                            <div class="checkbox-group">
+                                <input type="checkbox" name="newsletter" id="newsletter">
+                                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                            </div>
+                            
+                            <button type="submit">Get in Touch!</button>
+
+                    </form>
+                   
                 </div>       
             </section>
            
