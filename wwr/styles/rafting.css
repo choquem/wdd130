@@ -170,7 +170,7 @@ textarea {
 button {
     width: 100%;
     padding: 12px;
-    background-color: #2980b9;
+    background-color: var(--accent1-color);
     color: white;
     border: none;
     border-radius: 4px;
@@ -178,7 +178,6 @@ button {
     font-weight: bold;
     cursor: pointer;
     margin-top: 20px;
-    transition: background-color 0.3s;
 }
 
 button:hover {
