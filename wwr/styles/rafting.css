@@ -11,7 +11,7 @@
     --accent1-color : #264656;
     --accent2-color : #e9c45a;
     --accent3-color : #222;
-    --color-white : #fff;
+    --accent4-color : #fff;
     --heding-font : "times new Roman","Georgia",serif;
     --body-font : Arial, Helvetica, sans-Serif;
 }
@@ -27,7 +27,7 @@ header{
 }
 
 header li a{
-    color: var(--color-white);
+    color: var(--accent4-color);
     font-size: 1.2rem;
 }
 
@@ -98,12 +98,12 @@ nav ul{
     width: 125px;
 }
 .hero article p{
-    color: var(--color-white);
+    color: var(--accent4-color);
 }
 section h2{
    background-color: var(--accent1-color); 
    text-align: center;
-   color: var(--color-white);
+   color: var(--accent4-color);
 }
 /*page about*/
 .n-contact h1{
@@ -120,7 +120,7 @@ section h2{
 .contacts {
     display: flex;
     gap: 30px;
-    background: var(--color-white);
+    background: var(--accent4-color);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -137,7 +137,7 @@ label {
     display: block;
     margin: 15px 0 5px;
     font-weight: bold;
-    color: #333;
+    color: var(--accent3-color);
 }
 
 input[type="text"],
@@ -174,7 +174,7 @@ button {
     width: 100%;
     padding: 12px;
     background-color: var(--accent1-color);
-    color: var(--color-white);
+    color: var(--accent4-color);
     border: none;
     border-radius: 4px;
     font-size: 16px;
@@ -195,7 +195,7 @@ button:hover {
 
 .employed h2 {
     text-align: center;
-    color: var(--color-white);
+    color: var(--accent4-color);
     font-family: var(--heding-font);
     margin-bottom: 24px;
 }
@@ -246,7 +246,7 @@ button:hover {
 
 .adventures h2 {
     text-align: center;
-    color: var(--color-white);
+    color: var(--accent4-color);
     font-family: var(--heding-font);
     margin-bottom: 24px;
 }
